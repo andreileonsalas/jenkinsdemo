@@ -1,8 +1,17 @@
 def es_par(value):
-    True
+    if value % 2 == 0:
+        return True
+    else:
+        return False
 
 def es_impar(value):
-    True
+    if value % 2 == 0:
+        return False
+    else:
+        return True
 
 def es_alfanumerico(value):
-    True
+    if value.isalnum() == True:
+        return True
+    else:
+        return False
