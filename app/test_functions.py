@@ -25,7 +25,6 @@ def test_es_inpar():
     assert(es_impar(7) == True)
     assert(es_impar(99) == True)
     assert(es_impar(12324341) == True)
-    assert(es_impar(12324341) == True)
 
     # Casos negativos
     assert(es_impar(2) == False)
